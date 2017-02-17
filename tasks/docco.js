@@ -5,7 +5,7 @@
 // Licensed under the MIT license.
 
 "use strict";
-var docco = require('docco');
+var docco = require('@jrhames/docco');
 
 module.exports = function(grunt) {
   grunt.registerMultiTask('docco', 'Docco processor.', function() {
