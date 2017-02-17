@@ -1,7 +1,7 @@
 {
   "name": "@jrhames/grunt-docco",
   "description": "Grunt Docco plugin.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/jrhames/grunt-docco",
   "author": {
     "name": "Jr. Hames",
@@ -35,7 +35,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "@jrhames/docco": "0.7.2-5"
+    "@jrhames/docco": ">=1.0.0"
   },
   "devDependencies": {
     "rimraf": "^2.5.4",
