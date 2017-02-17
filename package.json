@@ -1,28 +1,30 @@
 {
-  "name": "grunt-docco",
+  "name": "@jrhames/grunt-docco",
   "description": "Grunt Docco plugin.",
-  "version": "0.5.0",
-  "homepage": "https://github.com/DavidSouther/grunt-docco",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jrhames/grunt-docco",
   "author": {
-    "name": "David Souther",
-    "email": "davidsouther@gmail.com",
-    "url": "http://www.davidsouther.com"
+    "name": "Jr. Hames",
+    "email": "jr@hames.com.br",
+    "url": "http://jrham.es"
   },
   "contributors": [
+    "David Souther <davidsouther@gmail.com>",
     "Alasdair Mercer <mercer.alasdair@gmail.com>",
     "Asa Ayers <Asa.Ayers@Gmail.com>",
     "Brad Dougherty <me@brad.is>",
     "Diego Fernandez <diegof79@gmail.com>",
     "Ilya Radchenko <ilya@burstcreations.com>",
     "Sam Breed <sam@quickleft.com>",
-    "Simon Elliott <simon@papercreatures.com>"
+    "Simon Elliott <simon@papercreatures.com>",
+    "Jr. Hames <jr@hames.com.br>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/DavidSouther/grunt-docco.git"
+    "url": "https://github.com/jrhames/grunt-docco.git"
   },
   "bugs": {
-    "url": "https://github.com/DavidSouther/grunt-docco/issues"
+    "url": "https://github.com/jrhames/grunt-docco/issues"
   },
   "license": "MIT",
   "engines": {
@@ -33,7 +35,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "docco": "~0.7.0"
+    "@jrhames/docco": "0.7.2-5"
   },
   "devDependencies": {
     "rimraf": "^2.5.4",
